@@ -52,6 +52,6 @@ No support will be provided and there will be no further development from my end
 
 ## What is not implemented:
 
-* Administrator dashboard.
-* Client ticket support.
-* Paysafecard integration.
+* Administrator dashboard
+* Client ticket support
+* Paysafecard integration
