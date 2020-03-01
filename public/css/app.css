@@ -1,0 +1,244 @@
+.auth,
+.auth-image {
+  min-height: 100vh;
+}
+
+.auth-bg-image {
+  background-image: url("../images/auth_image.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.auth-heading {
+  font-weight: 300;
+}
+
+.auth-bg-image:after {
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  position: absolute;
+  content: "";
+  display: block;
+}
+
+.auth-bg-image:after {
+  background-color: #00000052;
+  opacity: 0.7;
+  z-index: 1;
+}
+
+.navbar {
+  max-height: 63px;
+  background-color: #171a21;
+  /*background-color: #161616;*/
+  /* box-shadow: 0 3px 6px rgba(0,0,0,.08), 0 3px 6px rgba(0,0,0,.11); */
+}
+
+.dashboard-logo {
+  height: 75px;
+  margin-top: -6px;
+  margin-bottom: -10px;
+}
+
+.navbar .avatar {
+  height: 50px;
+}
+
+.sidebar {
+  min-width: 240px;
+  max-width: 240px;
+  min-height: calc(100vh - 63px);
+  transition: all 0.3s;
+}
+
+.sidebar .list-admin a {
+  display: block;
+  padding: .75rem 1rem;
+  text-decoration: none;
+}
+
+.sidebar-dark {
+  color: rgba(255, 255, 255, 1);
+}
+
+.sidebar-dark a {
+  color: rgba(255, 255, 255, .75);
+}
+
+.sidebar-dark a:hover, .sidebar-dark .active a {
+  color: rgba(255, 255, 255, 1);
+}
+
+.sidebar-dark a:hover, .sidebar-dark .active a, .sidebar-dark .list-admin ul, .sidebar-dark .list-admin [aria-expanded="true"] {
+  background: rgba(0, 0, 0, .15);
+}
+
+.list-admin hr {
+  display: block; height: 1px;
+    border: 0; border-top: 1px solid #5f5f5f;
+    margin: 1em 0; padding: 0;
+}
+
+.content {
+  width: calc(100vw - 240px);
+  background-color: #E9ECEF;
+}
+
+.server-icon {
+  width: 24px;
+  height: 24px;
+  border-radius: 3px;
+}
+
+/* @media (min-width: 576px) {
+  .modal-dialog {
+      max-width: 600px !important;
+      margin: 1.75rem auto;
+  }
+  .modal-body {
+    max-height: 600px !important;
+    overflow-y: auto;
+  }
+} */
+
+.tooltip { 
+  opacity: 1 !important;
+  filter: alpha(opacity=100);
+}
+
+/* datatables */
+.dataTables_wrapper table {
+  margin: .75rem -1.25rem 1.25rem -1.25rem !important;
+  width: calc(100% + 2.5rem);
+  border-bottom: 1px solid #dee2e6;
+}
+.dataTables_wrapper thead, .dataTables_wrapper tr:hover, thead {
+  background-color: #f8f9fa !important;
+  box-shadow: 0 .125rem .25rem rgba(0,0,0,.06)!important;
+}
+.dataTables_wrapper th, .dataTables_wrapper td {
+  padding: .75rem 1.25rem !important;
+  vertical-align: middle !important;
+}
+.dataTables_wrapper .dtr-inline.collapsed>tbody>tr[role="row"]>td:first-child:before {
+  background-color: #ced4da !important;
+  color: #212529 !important;
+  box-shadow: none !important;
+  top: 1rem !important;
+  left: 0 !important;
+  border: 0 !important;
+  border-radius: 0 .25rem .25rem 0 !important;
+}
+.dataTables_wrapper .table-search {
+  display: inline-block;
+  position: relative;
+  margin-bottom: .5rem;
+}
+.dataTables_wrapper .table-search button {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+@media (max-width: 768px) {
+  .dataTables_wrapper table {
+      margin-bottom: 0 !important;
+  }
+  .dataTables_paginate ul {
+      justify-content: center !important;
+  }
+}
+
+.btn-separator:after {
+  content: ' ';
+  display: block;
+  float: left;
+  background: #ADADAD;
+  margin: 0 0px;
+  height: 34px;
+  width: 1px;
+}
+
+.request_withdrawl_form input {
+  width: auto !important;
+  min-width: 130px !important;
+}
+
+.request_withdrawl_form input[type="email"] {
+  min-width: 250px !important;
+}
+
+.table-td-center td, .table-td-center th {
+  text-align: center !important;
+  vertical-align: middle !important;
+}
+
+.modal-content {
+  max-height: 95vh !important;
+  overflow-y: auto;
+}
+
+.text-gray-300 {
+  color: #dddfeb!important;
+}
+
+.text-xs {
+  font-size: .8rem;
+}
+
+.color-1 {
+  color: #49abed;
+}
+.color-2 {
+  color: #1abf84;
+}
+
+.header-content {
+  position: relative;
+  border-radius: 0;
+  border-bottom: 1px solid #c8ced3;
+  background-color: #cce5ff;
+  border-radius: 0;
+  padding: .75rem 1rem;
+}
+
+
+/* WEB SHOP */
+
+.full-height-screen {
+  min-height: 100vh;
+  background: url('/images/seigaiha.png');
+}
+
+#webshop-screen:after, #webshop-screen:before {
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  position: absolute;
+  content: "";
+  display: block;
+}
+#webshop-screen:before {
+  /* background-image: url(/landing_page/front.0263460f.jpg); */
+  background-attachment: fixed;
+  z-index: -2;
+  /* filter: grayscale(10%); */
+}
+
+#webshop-screen:after {
+  /*background-color: #000;
+  opacity: .7;*/
+  /*background-color: #e9ecef;*/
+  z-index: -1;
+}
+
+.admin-li {
+  text-shadow: 0 0 5px #f00;
+}
+
+.font-weight-slightly-bold {
+  font-weight: 500;
+}
