@@ -24,6 +24,11 @@ Dashboard
 - [Withdrawls](https://i.imgur.com/EaipcjG.png)
 - [Settings](https://i.imgur.com/HDeTBM6.png)
 
+Example Webshop
+- [List Subscriptions for sale](https://i.imgur.com/UDG50ul.png)
+- [Buy Subscription step 1](https://i.imgur.com/dlVujP6.png)
+- [Buy Subscription step 2](https://i.imgur.com/39Uzors.png)
+
 ## Setup
 
 Requires: 
