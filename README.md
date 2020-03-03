@@ -1,7 +1,7 @@
 ![sweetpayments logo](https://i.imgur.com/xvZotOF.png)
 
 > **SweetPayments** is a payment gateway targeted for Counter-Strike: Global Offensive game servers. 
-> It allows server owners to monetize their servers by selling subscriptions to players. Game server integration is performed via a [sourcemod](https://www.sourcemod.net/) plugin that server owners download through the dashboard¹.
+> It allows server owners to monetize their servers by selling premium subscriptions to players. Game server integration is performed via a [sourcemod](https://www.sourcemod.net/) plugin that server owners download through the dashboard¹.
 >
 > Each subscription can be customized (duration, [sourcemod flags](https://wiki.alliedmods.net/Adding_Admins_(SourceMod)), etc) and can be purchased by players at an online shop accessible by an URL like {gameserver_name}.{sweetpayments}.{com/net/..} 
 >
