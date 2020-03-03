@@ -66,3 +66,7 @@ No support will be provided and there will be no further development from my end
 * Administrator dashboard
 * Client ticket support
 * Paysafecard integration
+
+## Note
+
+> **SweetPayments is not meant to be self-hosted by clients.** The business plan I had in mind during development was taking a cut in each payment processed and providing the infrastructure needed (akin to a SaaS model).
