@@ -5,7 +5,9 @@
 >
 > Each subscription can be customized (duration, [sourcemod flags](https://wiki.alliedmods.net/Adding_Admins_(SourceMod)), etc) and can be purchased by players at an online shop accessible by an URL like shop_name.sweetpayments.com
 >
-> Features Paypal payments and Steam authentication.
+> Features **Paypal payments** and **Steam authentication**.
+>
+> Built with **Laravel 5.8** and **Bootstrap 4**.
 > <br>
 > <br>
 > ¹ <sup>You can view the source code for the sourcemod plugin in the [/storage/plugin/](https://github.com/Erroler/SweetPayments/tree/master/storage/plugin) folder of this repository.</sup>
