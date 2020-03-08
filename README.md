@@ -58,8 +58,8 @@ Steps:
 > 8. Access project at **localhost:8000**
 
 ## Disclaimer
-> ⚠️ This project is not complete (although it is pretty close to being so) and was never meant to be made public. 
-No support will be provided and there will be no further development from my end. 
+> ⚠️ **This project is not complete (although it is pretty close to being so) and was never meant to be made public. 
+No support will be provided and there will be no further development from my end.** 
 
 > This project is being released under the [MIT license](https://choosealicense.com/licenses/mit/) meaning you can use it for commercial purposes.
 
