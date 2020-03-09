@@ -1,16 +1,16 @@
 ![sweetpayments logo](https://i.imgur.com/xvZotOF.png)
 
-> **SweetPayments** is a payment gateway targeted for Counter-Strike: Global Offensive game servers. 
-> It allows server owners to monetize their servers by selling premium subscriptions to players. Game server integration is performed via a [sourcemod](https://www.sourcemod.net/) plugin that server owners download through the dashboard¹.
->
-> Each subscription can be customized (duration, [sourcemod flags](https://wiki.alliedmods.net/Adding_Admins_(SourceMod)), etc) and can be purchased by players at an online shop accessible by an URL like shop_name.sweetpayments.com
->
-> Features **Paypal payments** and **Steam authentication**.
->
-> Built with **Laravel 5.8** and **Bootstrap 4**.
-> <br>
-> <br>
-> ¹ <sup>You can view the source code for the sourcemod plugin in the [/storage/plugin/](https://github.com/Erroler/SweetPayments/tree/master/storage/plugin) folder of this repository.</sup>
+ **SweetPayments** is a payment gateway targeted for Counter-Strike: Global Offensive game servers. 
+ It allows server owners to monetize their servers by selling premium subscriptions to players. Game server integration is performed via a [sourcemod](https://www.sourcemod.net/) plugin that server owners download through the dashboard¹.
+
+ Each subscription can be customized (duration, [sourcemod flags](https://wiki.alliedmods.net/Adding_Admins_(SourceMod)), etc) and can be purchased by players at an online shop accessible by an URL like shop_name.sweetpayments.com
+
+ Features **Paypal payments** and **Steam authentication**.
+
+ Built with **Laravel 5.8** and **Bootstrap 4**.
+ <br>
+ <br>
+ ¹ <sup>You can view the source code for the sourcemod plugin in the [/storage/plugin/](https://github.com/Erroler/SweetPayments/tree/master/storage/plugin) folder of this repository.</sup>
 
 ## Screenshots
 
