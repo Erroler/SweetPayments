@@ -53,6 +53,7 @@ Steps:
 > 5. Open **.env** and fill the following entries: 
 > > - RDS_HOSTNAME, RDS_HOSTNAME, RDS_PORT, RDS_USERNAME, RDS_PASSWORD (Database related)
 > > - STEAM_API_KEY (Insert your steam API key, you can it from [here](https://steamcommunity.com/dev/apikey))
+> > - ADMIN_STEAMID64 (Insert your SteamID64; you can find yours using a service like steamid.io/lookup)
 > 6. Create database tables: **php artisan migrate:refresh**
 > 7. Start development server: **php artisan serve**
 > 8. Access project at **localhost:8000**

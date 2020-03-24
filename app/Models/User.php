@@ -88,7 +88,7 @@ class User extends Authenticatable
     }
 
     public function isAdmin() {
-        return $this->steamid === '76561198044937482';
+        return $this->steamid === env('ADMIN_STEAMID64');
     }
     
 }

@@ -16,10 +16,6 @@ class DashboardController extends Controller
     public function main() 
     {
         $steamid = Auth::user()->steamid;
-        if(!in_array($steamid, ['76561198044937482', '76561198013119117'])) {
-            return view('pages.authenticate', ['error' => 'SweetPayments is currently in beta and registrations are closed.']);
-        }
-
         $community = Auth::user()->community;
         if($community === NULL)
             return redirect()->route('community.select.step1');
