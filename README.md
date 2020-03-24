@@ -51,7 +51,8 @@ Steps:
 > 3. Rename **.env.example** to **.env**
 > 4. Run **php artisan key:generate**
 > 5. Open **.env** and fill the following entries: 
-> > - RDS_HOSTNAME, RDS_HOSTNAME, RDS_PORT, RDS_USERNAME, RDS_PASSWORD (Database related)
+> > - DB_CONNECTION (Enter your database managment system here: mysql, pgsql, etc)
+> > - RDS_HOSTNAME, RDS_HOSTNAME, RDS_PORT, RDS_USERNAME, RDS_PASSWORD (Database credentials)
 > > - STEAM_API_KEY (Insert your steam API key, you can it from [here](https://steamcommunity.com/dev/apikey))
 > > - ADMIN_STEAMID64 (Insert your SteamID64; you can find yours using a service like steamid.io/lookup)
 > 6. Create database tables: **php artisan migrate:refresh**
